@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <title>Welcome to update institute</title>
+    
+    <script>
+      function initMap() {
+        var uluru = {lat: 23.750683, lng: 90.391853};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVt_kSaQS5EeBsZBbHF4hYP8Jocv0VXr4&callback=initMap">
+    </script>
+  
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <!-- start header -->
+    <div class="header-area" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-6">
+                  <div class="header-text">
+                      <img src="img/logo1.png" alt="">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end header -->
+
+    <!-- Navigations -->
+   <nav class="navbar sticky-top navbar-expand-sm bg-blue navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><img src="img/" alt=""></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto nav-pills">
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link active">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#feature" class="nav-link">courses</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#about" class="nav-link">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#affiliate" class="nav-link">Affiliations</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#contact" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+      <!-- contact -->
+
+      <div id="contact">
+          <div class="contact-inner">
+              <div class="container">
+                 <h3 class="pt-2 text-center">Contact Us</h3>
+              <div class="row pt-3">
+                  <div class="col-md-10 offset-md-1">
+                      <div id="map"></div>
+                  </div>
+              </div>
+
+
+              <div class="row pt-5">
+                  <div class="col-md-5 offset-md-1 col-sm-12 col-sm-12">
+                      <form>
+                          <div class="form-group">
+                            <input type="password" class="form-control"  placeholder="Name">
+                          </div>
+
+                          <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+
+                        <div class="form-group">
+                          <textarea class="form-control" placeholder="MESSAGE" id="message" rows="3"></textarea>
+                        </div>
+
+                    <!-- form submit -->
+                  <div class="submit pt-2">
+                      <a href="" class="btn btn-primary text-uppercase">Submit</a>
+                  </div>
+                  </form>
+                  </div>
+
+                  <div class="col-md-5 col-sm-12 col-sm-12 address">
+                      <p> <strong>Update Institute</strong> <br>UTC Unique Trade Center<br>Panthapath,Dhaka</p>
+                      <a href="https://www.facebook.com/updatein" class="btn btn-primary mt-3">FACEBOOK</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+     <footer class="fixed-bottom">
+          <div class="container">
+              <div class="row no-gutters">
+                  <div class="col-md-3">
+                    <a href=""><i class="fa fa-envelope"></i>info@updatebd.com</a>
+                  </div>
+                  <div class="col-md-3">
+                     <a href=""><i class="fa fa-phone"></i>+880 1786 115500</a>
+                  </div>
+                  <div class="col-md-6">
+                      <a href=""><i class="fa fa-map-marker"></i>UTC Building,8 Panthapath, Dhaka 1205</a>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    </body>
+</html>

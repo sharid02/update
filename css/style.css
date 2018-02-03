@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600,700");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  line-height: 25px;
+}
+body h2 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 600;
+}
+body p {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 400;
+}
+body h3 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 600;
+}
+
+.header-area {
+  min-height: 130px;
+  background: #0060cd;
+  background: -webkit-linear-gradient(#002651, #0060cd);
+  background: -o-linear-gradient(#002651, #0060cd);
+  background: -moz-linear-gradient(#002651, #0060cd);
+  background: linear-gradient(#002651, #0060cd);
+  color: #fff;
+  text-transform: uppercase;
+}
+.header-area h2 {
+  font-size: 45px;
+}
+.header-area h3 {
+  font-size: 35px;
+}
+.header-area img {
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 991px) {
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-pills .nav-link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+  }
+}
+.navbar {
+  min-height: 48px;
+}
+.navbar a {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+  float: none;
+}
+.navbar li {
+  padding-right: 40px;
+}
+.navbar .nav-pills .nav-link.active {
+  background: #0097f8;
+}
+.navbar .nav-pills .nav-link {
+  border-radius: 0px;
+}
+.navbar a.nav-link.active {
+  min-width: 110px;
+  text-align: center;
+}
+@media (max-width: 34em) {
+  .navbar {
+    background: #000066 !important;
+  }
+}
+
+.bg-blue {
+  background: #001d9a;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.slider-area {
+  padding-bottom: 25px;
+}
+.slider-area h2 {
+  font-size: 36px;
+  padding-top: 30px;
+}
+.slider-area p {
+  font-size: 16px;
+}
+.slider-area .slider {
+  max-width: 0 0 61.666667%;
+  flex: 0 0 60.666667%;
+  margin-top: 15px;
+}
+.slider-area .slider-box {
+  height: 80px;
+  width: 400px;
+  background: #001d9a;
+  padding-bottom: 15px;
+  margin: 105px 20px 0px 0px;
+}
+
+.feature {
+  margin-bottom: 25px;
+}
+.feature .feature-box {
+  height: 70px;
+  width: 100%;
+  background: #001d9a;
+  color: #fff;
+}
+.feature img {
+  width: 100%;
+  border-bottom: 5px solid #001d9a;
+}
+.feature p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+#about {
+  min-height: 350px;
+}
+#about p {
+  font-size: 18px;
+}
+#about .about-inner {
+  border: 1px solid #001d9a;
+  border-left: none;
+  border-right: none;
+}
+#about .about-text {
+  margin: 30px 0px 0px 25px;
+}
+#about img {
+  height: 350px;
+  width: 400px;
+}
+
+.message {
+  min-height: 310px;
+  margin-bottom: 100px;
+}
+.message p {
+  font-size: 12px;
+  margin-left: 15px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 400;
+}
+.message h2 {
+  margin-left: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: 25px;
+  font-size: 36px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 600;
+}
+.message .message-inner {
+  border: 1px solid #001d9a;
+  border-left: none;
+  border-right: none;
+}
+.message .message-img img {
+  height: 300px;
+  width: 285px;
+}
+
+#program {
+  margin-bottom: 60px;
+}
+#program .program-box {
+  width: 610px;
+  background: #ecf6ff;
+  min-height: 870px;
+  margin-bottom: 60px;
+}
+#program .img-box h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 50px 0px 0px 6px;
+}
+#program h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 50px 0px 0px 25px;
+}
+#program h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+#program ul {
+  margin: 0;
+  padding: 0;
+}
+#program li {
+  float: left;
+  margin: 0px 0px 0px 25px;
+  padding: 0px 0px 0px 0px;
+  font-size: 18px;
+}
+#program p {
+  margin: 0px 0px 0px 20px;
+  font-size: 18px;
+}
+#program span {
+  margin-left: 20px;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  max-width: 100px;
+}
+#program .img-box h2 {
+  text-transform: capitalize;
+}
+#program .img-box img {
+  float: left;
+}
+#program .img-box {
+  padding-left: 80px;
+}
+
+#affiliate {
+  min-height: 470px;
+  background: #001d9a;
+  overflow: hidden;
+}
+#affiliate .navbar {
+  min-height: 75px;
+  width: 100%;
+  background: #001f61;
+}
+#affiliate .navbar ul {
+  margin-left: 400px;
+  padding-top: 5px;
+}
+#affiliate .navbar ul li {
+  float: left;
+  list-style: none;
+}
+#affiliate h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+}
+#affiliate p {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer {
+  min-height: 75px;
+  background: #005aff;
+}
+footer a {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 15px;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+footer i {
+  padding-top: 25px;
+  padding-right: 6px;
+}
+
+/*
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+*/
+@media only screen and (max-width: 960px) {
+  .container {
+    min-width: 90%;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .container {
+    min-width: 90%;
+  }
+}
+#contact {
+  min-height: 850px;
+  background-image: url(../img/pexels-photo-167699.jpeg);
+  background-position: center;
+}
+#contact h2, #contact h3, #contact p {
+  color: #fff;
+}
+#contact h3 {
+  font-size: 50px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 600;
+}
+#contact p {
+  font-size: 30px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 400;
+  line-height: 45px;
+}
+#contact .address .btn-primary {
+  border-radius: 0;
+}
+#contact .form-control {
+  border-radius: 0;
+  border: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+#contact .submit .btn-primary {
+  width: 140px;
+  border-radius: 0;
+}
+#contact strong {
+  text-transform: uppercase;
+  color: #13BCE7;
+  font-size: 40px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 600;
+}
+
+.contact-inner {
+  min-height: 850px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  background: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
