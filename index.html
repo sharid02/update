@@ -12,6 +12,10 @@
 
     <!-- font awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <!-- owl css -->
+    <link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="owl.theme.css">
 
     <!-- reset css -->
     <link rel="stylesheet" href="css/reset.css">
@@ -42,7 +46,7 @@
     <!-- Navigations -->
    <nav class="navbar sticky-top navbar-expand-sm bg-blue navbar-dark">
         <div class="container">
-          <a href="index.html" class="navbar-brand"><img src="img/" alt=""></a>
+          <a href="index.html" class="navbar-brand"><img src="" alt=""></a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -79,7 +83,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 slider mr-0 pr-0">
-                    <img src="img/slider_images.jpg" class="img-fluid" alt="">
+                   <div id="owl-demo" class="owl-carousel owl-theme">
+                      <div class="item"><img src="img/slider_images.jpg" alt="The Last of us"></div>
+                      <div class="item"><img src="img/slider_images.jpg" alt="GTA V"></div>
+                      <div class="item"><img src="img/slider_images.jpg" alt="Mirror Edge"></div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <h2>Welcome to UPDATE </h2>
@@ -101,31 +109,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6 pr-0">
-                    <div class="feature-box">
-                      <p class="pl-2 pt-2">Food and Breverage <br> Production</p>
-                    </div>
-                    <img src="img/f-img1.jpg" alt="">
+                    <a href="course-one.html">
+                      <div class="feature-box">
+                        <p class="pl-2 pt-2">Food and Breverage <br> Production</p>
+                      </div>
+                      <img src="img/f-img1.jpg" alt="">
+                      </a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 pr-0">
-                    <div class="feature-box">
-                      <p class="pl-2 pt-2">Food and Breverage <br> Service</p>
-                    </div>
-                    <img src="img/f-img2.jpg" alt="">
+                    <a href="course-two.html">
+                      <div class="feature-box">
+                        <p class="pl-2 pt-2">Food and Breverage <br> Service</p>
+                      </div>
+                      <img src="img/f-img2.jpg" alt="">
+                    </a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 pr-0">
-                  <div class="feature-box">
+                  <a href="course-three.html">
+                    <div class="feature-box">
                       <p class="pl-2 pt-2">Front Office operation</p>
                     </div>
                     <img src="img/f-img3.jpg" alt="">
+                  </a>
                 </div>
 
                 <div class="col-md-3 col-sm-6 pr-0">
-                  <div class="feature-box">
+                  <a href="course-four.html">
+                      <div class="feature-box">
                       <p class="pl-2 pt-2">house keeping</p>
                     </div>
                     <img src="img/f-img4.jpg" alt="">
+                  </a>
                 </div>
             </div>
         </div>
@@ -309,6 +325,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     </body>
 </html>

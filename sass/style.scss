@@ -121,6 +121,12 @@ body{
     }
 }
 
+// owl css
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 .feature{
 
@@ -139,6 +145,9 @@ body{
     p{
         font-size: 20px;
         text-transform: capitalize;
+    }
+    a{
+        text-decoration: none;
     }
 }
 
@@ -386,4 +395,41 @@ $container-max-widths: (
     height:300px;
     width: 100%;
     background:gray;
+}
+
+// course css
+.banner{
+    min-height:300px;
+    background-position:center;
+    background-size: cover;
+    background-image:url(../img/pexels-photo-459469.jpg);
+
+    h2{
+        color:#fff;
+        font-size: 45px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase; 
+    }
+}
+
+.feature-text{
+    min-height:800px;
+    background: #ededed;
+    
+    h3{
+        font-size: 40px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 600;
+
+    }
+
+    span{
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    p{
+        line-height:20px;
+    }
 }
